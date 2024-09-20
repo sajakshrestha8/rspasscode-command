@@ -1,6 +1,9 @@
 {
   "name": "cli-random-password-generator",
   "version": "1.0.0",
+  "bin":{
+    "Greet": "./index.js"
+  },
   "description": "",
   "main": "index.js",
   "scripts": {
