@@ -13,4 +13,7 @@
 
 <h1>How to use it</h1>
 <p>Open any directory in command prompt</p>
-  <li>name rspasscode</li>
+  <li>PS C:> name rspasscode</li>
+
+<h1>Sample Image</h1>
+![image](https://github.com/user-attachments/assets/7aee3e62-db19-4962-9226-86737c5c0d5d)
