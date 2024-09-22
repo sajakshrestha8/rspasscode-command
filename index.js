@@ -40,6 +40,10 @@ const capital = [
   "Z",
 ];
 
+const number = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
+
+const symbol = ["!", "@", "#", "$", "%"];
+
 const small = [
   "a",
   "b",
@@ -69,7 +73,7 @@ const small = [
   "z",
 ];
 
-let bucket = [...capital, ...small];
+let bucket = [...capital, ...small, ...number, ...symbol];
 let output = "";
 
 program
@@ -81,7 +85,7 @@ program
   .command("rspasscode")
   .description("Generate a random password")
   .action(() => {
-    rl.question(chalk.cyan("Enter the length of password:"), (length) => {
+    rl.question(chalk.cyan("Enter the length of password: "), (length) => {
       const passLength = parseInt(length);
 
       for (let i = 0; i < passLength; i++) {
