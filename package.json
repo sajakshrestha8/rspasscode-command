@@ -8,7 +8,7 @@
   },
   "keywords": [],
   "bin": {
-    "sajak": "./index.js"
+    "rspasscode": "./index.js"
   },
   "author": "",
   "license": "ISC",
