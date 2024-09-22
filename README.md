@@ -16,4 +16,5 @@
   <li>PS C:> name rspasscode</li>
 
 <h1>Sample Image</h1>
-![image](https://github.com/user-attachments/assets/7aee3e62-db19-4962-9226-86737c5c0d5d)
+![image](https://github.com/user-attachments/assets/0fdf41a6-f5ca-4b93-9b87-d644eda44c1e)
+
