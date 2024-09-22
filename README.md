@@ -13,6 +13,4 @@
 
 <h1>How to use it</h1>
 <p>Open any directory in command prompt</p>
-<ol>
   <li>name rspasscode</li>
-</ol>
