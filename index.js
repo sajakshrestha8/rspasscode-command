@@ -1,3 +1,4 @@
+const chalk = require("chalk");
 const { Command } = require("commander");
 const { read } = require("fs");
 const { loadEnvFile, stdin } = require("process");
@@ -80,14 +81,17 @@ program
   .command("rspasscode")
   .description("Generate a random password")
   .action(() => {
-    rl.question("Enter the length of password:", (length) => {
+    rl.question(chalk.cyan("Enter the length of password:"), (length) => {
       const passLength = parseInt(length);
 
       for (let i = 0; i < passLength; i++) {
         output += bucket[Math.floor(Math.random() * bucket.length)];
         // output += capital[bucket];
       }
-      console.log("Generated Password is:", output);
+      console.log(
+        chalk.cyan("Generated Password is:"),
+        chalk.green.bold.underline(output)
+      );
       rl.close();
     });
   });
