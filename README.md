@@ -1,30 +1,45 @@
-<h1>rspasscode-commad</h1>
-<p>Command that can be used to generate random passsword of any length </p>
+# Random Password Generator CLI
 
-<h1>How to setUp</h1>
+A simple command-line interface (CLI) tool for generating random passwords. Users can specify the length of the password, and the tool will create a secure password consisting of uppercase letters, lowercase letters, numbers, and symbols.
 
-  1.  ```bash
-    npm init -y
+## Features
 
-  2. ```bash
-    npm install commander
-    
-  3. ```bash
-     npm install readline
-     
-  4. ```bash
-     npm install chalk
-     
-  5. ```bash
-     npm link
-     
-  6. ```bash
-     npm install -g
+- Generate random passwords of a specified length.
+- Option for a greeting message.
+- Uses `chalk` for colorful terminal output.
 
-<h1>How to use it</h1>
-<p>Open any directory in command prompt</p>
-  <li>PS C:> name rspasscode</li>
+## Prerequisites
 
-<h1>Sample Image</h1>
-![image](https://github.com/user-attachments/assets/0fdf41a6-f5ca-4b93-9b87-d644eda44c1e)
+- Node.js (version 14 or higher recommended)
+- npm (Node Package Manager)
 
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/random-password-generator-cli.git
+
+2. Navigate into the project directory:
+
+   ```bash
+   cd random-password-generator-cli
+
+3. Install the required dependencies:
+
+   ```bash
+   npm install
+
+4. Install the CLI tool globally:
+
+   ```bash
+   npm install -g
+
+5. Usage
+  ```bash
+  rspasscode
+ ```
+## Example Output
+  ```bash
+  ? Enter the length of password: 12
+Generated Password is: abC@1g$3Dk!F
