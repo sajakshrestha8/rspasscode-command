@@ -2,14 +2,24 @@
 <p>Command that can be used to generate random passsword of any length </p>
 
 <h1>How to setUp</h1>
-<ol>
-  <li>npm init -y</li>
-  <li>npm install commander</li>
-  <li>npm install readline</li>
-  <li>npm install chalk</li>
-  <li>npm link</li>
-  <li>npm install -g</li>
-</ol>
+
+  1.  ```bash
+    npm init -y
+
+  2. ```bash
+    npm install commander
+    
+  3. ```bash
+     npm install readline
+     
+  4. ```bash
+     npm install chalk
+     
+  5. ```bash
+     npm link
+     
+  6. ```bash
+     npm install -g
 
 <h1>How to use it</h1>
 <p>Open any directory in command prompt</p>
